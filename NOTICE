@@ -1,0 +1,31 @@
+east-toronto-streetmap
+Copyright (C) Bob Dodd
+
+The code in this repository — index.htm, the scripts under js/, and
+styles.css — is licensed under the GNU General Public License v3.0 or
+later. See LICENSE for the full text.
+
+----------------------------------------------------------------------
+Third-party source material
+----------------------------------------------------------------------
+
+The map data in this repository is derived from OpenStreetMap:
+
+  - map.osm        the raw OpenStreetMap extract
+  - shapefiles/    shapefile exports derived from that extract
+  - map/*.geojson  GeoJSON conversions of the same layers
+
+These represent the data pipeline behind the rendered map
+(OSM extract -> shapefiles -> GeoJSON).
+
+(C) OpenStreetMap contributors. This data is made available under the
+Open Database License (ODbL) v1.0. You are free to copy, distribute,
+and adapt it, under the terms of that licence:
+
+  https://www.openstreetmap.org/copyright
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+The OpenStreetMap data remains under ODbL; the GPL-3.0-or-later grant
+covering this repository's code does not extend to it. The data is
+included so the demo is runnable and so the rendering pipeline is
+fully visible.
